@@ -1,0 +1,49 @@
+{
+  "logs": [
+    {
+      "message": "Changed network card in server 007",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2019-05-31T15:46:10.179Z",
+      "id": 1
+    },
+    {
+      "id": 4,
+      "message": "Workstation 026 is up and running",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2019-05-31T19:57:35.544Z"
+    },
+    {
+      "message": "working on redux-thunk",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-11-17T10:03:59.465Z",
+      "id": 5
+    },
+    {
+      "message": "someThing",
+      "attention": false,
+      "tech": "mohammad saeedi",
+      "date": "2021-11-23T20:09:03.762Z",
+      "id": 6
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "mohammad",
+      "lastName": "saeedi",
+      "id": 4
+    }
+  ]
+}
