@@ -8,6 +8,7 @@ const TechItem = ({ tech: { id, firstName, lastName }, deleteTech }) => {
   const onDelete = () => {
     deleteTech(id);
     M.toast({ html: 'Technician deleted' });
+
   };
 
   return (
@@ -26,6 +27,7 @@ TechItem.propTypes = {
   tech: PropTypes.object.isRequired,
   deleteTech: PropTypes.func.isRequired
 };
+
 
 export default connect(
   null,
